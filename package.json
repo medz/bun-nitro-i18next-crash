@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "build": "nitro build",
+    "dev": "bun --bun nitro dev",
+    "postinstall": "nitro prepare"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.4.1",
+    "i18next": "^24.2.2",
+    "nitropack": "^2.11.6",
+    "prisma": "^6.4.1"
+  }
+}
